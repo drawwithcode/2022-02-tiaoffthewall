@@ -30,8 +30,5 @@ function Star() {
     var py = map(this.y / this.pz, 0, 1, 0, height);
 
     this.pz = -1;
-
-    //stroke(this.color);
-    //line(px, py, sx, sy);
   };
 }
